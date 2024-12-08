@@ -1,0 +1,115 @@
+.landing-page {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #002e32; */
+  padding: 60px 80px 40px;
+  background-image: linear-gradient(#e0ecf2, #d3dbed);
+}
+/* .nav-bar {
+  width: 100%;
+  height: 90px;
+  background-color: violet;
+} */
+.clg-logo {
+  margin-left: 230px;
+}
+
+.hero {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.first-half {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: start; */
+  padding-left: 45px;
+  padding-top: 120px;
+  width: 50%;
+  height: 100%;
+}
+.clg-logo {
+  height: 180px;
+  width: 260px;
+}
+.second-half {
+  width: 50%;
+  height: 100%;
+  /* background-color: blue; */
+}
+.btn-grp {
+  display: flex;
+  gap: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #6a7980;
+  width: 200px;
+
+  padding: 14px 28px;
+}
+.log-in-btn {
+  color: #6a7980;
+  background-color: transparent;
+  border: 2px solid #6a7980;
+  border-radius: 10px;
+}
+.btn:hover {
+  color: #6a7980;
+  background-color: transparent;
+  border: 2px solid #6a7980;
+  border-radius: 10px;
+}
+.log-in-btn:hover {
+  color: white;
+  background-color: #6a7980;
+  border: 2px solid #6a7980;
+}
+.hero-img {
+  border-radius: 50px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
